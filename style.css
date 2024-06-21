@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+h1 {
+    font-size: 3em;
+}
+
+.hero {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero video {
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* Adjust width as needed */
+    height: auto;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+}
+
+.hero p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.hero .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .benefits, .call-to-action {
+    padding: 50px;
+}
+
+.features ul, .benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li, .benefits li {
+    margin-bottom: 20px;
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+.social-media {
+    text-align: center;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #0056b3;
+}
